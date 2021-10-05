@@ -1,0 +1,22 @@
+main {
+    position: fixed;
+    top: 320px
+}
+
+.header {
+    position: fixed;
+    left: 320px;
+    height: 300px;
+}
+
+.photo {
+    position: fixed;
+    left: 5px;
+    top: 20px;
+    width: 300px;
+}
+
+.radius {
+    border-radius: 50%;
+}
+
