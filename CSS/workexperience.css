@@ -1,0 +1,39 @@
+.workexperience {
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.workexperience__title {
+    color: antiquewhite;
+    position: center;
+    text-align: center;
+}
+
+.workexperience__content {
+    margin: 70px auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.workexperience__list {
+    max-width: 1000px;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    position: center;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.workexperience__point {
+    color: antiquewhite;
+    display: flex;
+    padding: 15px;
+    margin: 15px;
+    position: center;
+    border: 10px solid antiquewhite;
+    box-shadow: 0 0 10px white;
+}

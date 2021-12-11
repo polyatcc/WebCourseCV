@@ -1,0 +1,27 @@
+.contact {
+    background-color: transparent;
+}
+
+.contact__title {
+    color: antiquewhite;
+    position: center;
+    text-align: center;
+}
+
+.contact__list {
+    max-width: 1000px;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.contact__point {
+    color: antiquewhite;
+}
+
+.footer__copyright {
+    color: antiquewhite;
+}

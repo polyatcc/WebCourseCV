@@ -1,0 +1,25 @@
+.education__title {
+    color: antiquewhite;
+    position: center;
+    text-align: center;
+}
+
+.education__list {
+    max-width: 1000px;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.education__point {
+    color: antiquewhite;
+    border: 10px solid antiquewhite;
+    display: inline-block;
+    padding: 15px;
+    margin: 15px;
+    position: relative;
+    box-shadow: 0 0 10px white;
+}

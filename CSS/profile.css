@@ -1,0 +1,57 @@
+.profile {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile__text {
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profile__name {
+    display: flex;
+    font-size: 48px;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.profile__stack {
+    display: flex;
+    text-shadow: blue;
+    font-size: 24px;
+}
+
+.profile__city {
+    text-shadow: red;
+}
+
+.profile__image {
+    display: block;
+    max-width: 300px;
+    justify-self: center;
+    overflow: hidden;
+    animation: ava-animate 5s infinite alternate;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, .5);
+}
+
+@keyframes ava-animate {
+    0% {
+        border-radius: 43% 29% 24% 47% / 29% 43% 43% 34%;
+    }
+
+    40% {
+        border-radius: 37% 63% 53% 47% / 67% 32% 68% 33%;
+    }
+
+    60% {
+        border-radius: 26% 34% 39% 61% / 50% 54% 47% 22%;
+    }
+
+    100% {
+        border-radius: 21% 90% 29% 76% / 43% 54% 46% 57%;
+    }
+}
