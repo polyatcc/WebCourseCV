@@ -7,6 +7,7 @@
 .education__list {
     max-width: 1000px;
     display: flex;
+    flex-direction: column;
     margin: auto;
     flex-wrap: wrap;
     align-items: center;
@@ -16,8 +17,11 @@
 
 .education__point {
     color: antiquewhite;
+    margin-top: 0;
     border: 10px solid antiquewhite;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 15px;
     margin: 15px;
     position: relative;

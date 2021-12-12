@@ -6,6 +6,7 @@
 }
 
 .profile__text {
+    padding: 50px;
     color: antiquewhite;
     display: flex;
     flex-direction: column;
@@ -53,5 +54,11 @@
 
     100% {
         border-radius: 21% 90% 29% 76% / 43% 54% 46% 57%;
+    }
+}
+
+@media all and (max-width: 750px) {
+    .profile__image {
+        display: none;
     }
 }

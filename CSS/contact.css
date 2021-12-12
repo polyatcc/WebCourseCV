@@ -16,12 +16,10 @@
     align-items: center;
     justify-content: center;
     list-style-type: none;
+    flex-direction: column;
 }
 
 .contact__point {
     color: antiquewhite;
 }
 
-.footer__copyright {
-    color: antiquewhite;
-}

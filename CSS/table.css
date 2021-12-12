@@ -1,0 +1,48 @@
+.other__table {
+    width: 100%;
+    border-collapse: collapse;
+    white-space: nowrap;
+    border: 1px solid grey;
+}
+
+.other__table caption {
+    text-align: center;
+    justify-self: auto;
+    padding: 10px;
+    height: 1.5rem;
+    color: antiquewhite;
+}
+
+.other__table th, .other__table td {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.other__table tr:nth-child(even) {
+    background: antiquewhite;
+    color: black;
+}
+
+.other__table tr:nth-child(odd) {
+    background: transparent;
+    color: antiquewhite;
+}
+
+.other__table th:nth-child(odd) {
+    background: antiquewhite;
+    color: black;
+}
+
+@media all and (max-width: 1000px) {
+
+    .other__section_table {
+        overflow-x: scroll;
+        width: auto;
+    }
+
+    .other__section_table::-webkit-scrollbar {
+        width: 0;
+        background: transparent;
+    }
+}
