@@ -2,6 +2,10 @@
     font-family: Helvetica, sans-serif;
 }
 
+html {
+    height: 100%;
+}
+
 body {
     height: 100%;
     background-color: #940F58;
@@ -13,6 +17,7 @@ body {
 
 main {
     padding-bottom: 150px;
+    min-height: calc(100% - 150px - 70px - 31px);
 }
 
 footer {
