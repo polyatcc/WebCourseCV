@@ -33,12 +33,13 @@
     color: antiquewhite;
     display: flex;
     flex-direction: column;
-    padding: 15px;
-    margin: 15px;
+    padding: 10px;
+    margin: 10px;
     align-items: center;
     justify-content: center;
     border: 10px solid antiquewhite;
     box-shadow: 0 0 10px white;
+    border-radius: 20px;
 }
 
 .workexperience__point p {

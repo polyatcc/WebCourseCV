@@ -29,6 +29,7 @@
     box-sizing: border-box;
     position: relative;
     box-shadow: 0 0 10px white;
+    border-radius: 20px;
 
 }
 
@@ -39,4 +40,5 @@
     margin: 20px;
     border: 10px solid antiquewhite;
     box-shadow: 0 0 10px white;
+    border-radius: 20px;
 }

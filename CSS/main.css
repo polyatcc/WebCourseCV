@@ -36,3 +36,7 @@ footer {
 .footer__copyright {
     color: antiquewhite;
 }
+
+ul {
+    padding-left: 0;
+}
