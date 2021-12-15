@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="other" content="width=device-width, initial-scale=1.0">
     <title>Education</title>
 
-    <link rel = "Stylesheet" href = "../CSS/todolist.css">
+    <link rel="Stylesheet" href="../CSS/todolist.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
     <link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet">
-    <link rel = "shortcut icon" href="../image/favicon.ico">
-    <link rel="icon" type="image/gif" href="../image/animated_favicon1.gif" >
+    <link rel="shortcut icon" href="../image/favicon.ico">
+    <link rel="icon" type="image/gif" href="../image/animated_favicon1.gif">
 
     <link rel="stylesheet" href="../CSS/education.css">
     <link rel="stylesheet" href="../CSS/profile.css">
@@ -22,10 +23,13 @@
     <link rel="stylesheet" href="../CSS/workexperience.css">
     <link rel="stylesheet" href="../CSS/table.css">
 
-    <script src="../JavaScript/timer.js"></script><script src="../JavaScript/timer.js"></script>
+    <script src="../JavaScript/timer.js"></script>
+    <script src="../JavaScript/timer.js"></script>
     <script type="module" src="../JavaScript/navigation.js"></script>
-    <script src="../JavaScript/todolist.js"></script><script src="../JavaScript/todolist.js"></script>
+    <script src="../JavaScript/todolist.js"></script>
+    <script src="../JavaScript/todolist.js"></script>
 </head>
+
 <body>
 <header>
     <nav>
@@ -35,30 +39,34 @@
             <li class="nav__item"><a class="nav__link" href="../pages/skills.html">Skills</a></li>
             <li class="nav__item"><a class="nav__link" href="../pages/contact.html">Contact</a></li>
             <li class="nav__item"><a class="nav__link" href="../pages/table.html">Table</a></li>
-            <li class="nav__item"><a class="nav__link" href="todolist.html.html">Todo List</a></li>
+            <li class="nav__item"><a class="nav__link" href="todolist.html">Todo List</a></li>
         </ul>
     </nav>
 </header>
 <main>
-    <div id = "todo">
+    <div id="todo">
         <h1> MY TO-DO LIST <i id="pencil" class="fas fa-pencil-alt"></i> </h1>
 
-        <input type = "text" placeholder="Add New Todo">
+        <div id="buttons">
+            <button id="save">Save</button>
+            <button id="clear">Clear</button>
+            <button id="tipBtn">Tips</button>
+        </div>
 
-        <ul class="todos">
+        <input type="text" placeholder="Add New Todo">
 
-            <li><span><i class="fas fa-trash-alt"></i></span>Go to the salon</li>
+        <ul id="todos">
+
+
+            <li><span><i class="fas fa-trash-alt"></i></span>Meow</li>
+            <li><span><i class="fas fa-trash-alt"></i></span>Suicide</li>
         </ul>
 
-        <div id= "buttons">
-            <button class="save">Save</button>
-            <button class="clear">Clear</button>
-            <button class="tipBtn">Tips</button>
-        </div>
+
     </div>
 
-    <div id = "overlay">
-        <a href="javascript:void(0)" class="closebtn">&times;</a>
+    <div id="overlay">
+        <button id="closebtn">x</button>
         <ul class="tips">
             <li>Click on the pencil to hide or show input area</li>
             <li>Type text into input area and press enter to add todo to list</li>
@@ -74,6 +82,7 @@
         &copy 2021 polyatcc
     </p>
 </footer>
-    <script src="../JavaScript/todolist.js"></script>
+<script src="../JavaScript/todolist.js"></script>
 </body>
+
 </html>
