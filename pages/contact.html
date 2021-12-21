@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="other" content="width=device-width, initial-scale=1.0">
-    <title>Education</title>
+    <title>Contact</title>
 
     <link rel="stylesheet" href="../CSS/education.css">
     <link rel="stylesheet" href="../CSS/profile.css">
@@ -17,6 +17,7 @@
 
     <script src="../JavaScript/timer.js"></script><script src="../JavaScript/timer.js"></script>
     <script type="module" src="../JavaScript/navigation.js"></script>
+
 </head>
 <body>
 <header>
@@ -36,26 +37,23 @@
         <h2 class="contact__title">
             Contact me
         </h2>
-        <ul class="contact__list">
-            <li class="contact__point">
-                <a href="https://t.me/mdprssn">
-                    <img src="../image/telegram.png" alt="Telegram" width="25" height="25">
-                    <strong>Telegram</strong>
-                </a>
-            </li>
-            <li class="contact__point">
-                <a href="https://github.com/polyatcc">
-                    <img src="../image/github.png" alt="Github" width="25" height="25">
-                    <strong>GitHub</strong>
-                </a>
-            </li>
-            <li class="contact__point">
-                <strong>e-mail:</strong>
-                <b>ptceneva@gmail.com</b>
-            </li>
-        </ul>
+
+        <a class="anchor" name="data"></a>
+        <div class="loading_image"></div>
+        <section class="wrapper">
+            <div style="margin-top: 80px;">
+                <div id="posts_container">
+                </div>
+            </div>
+            <div id="buttons" class="button_container">
+                <button id="prev_button" class="button" type="submit" onclick="prevPost()">Предыдущий</button>
+                <button id="next_button" class="button" type="submit" onclick="nextPost()">Следующий</button>
+            </div>
+        </section>
     </section>
 </main>
+<script src="../vanta.net.min.js"></script>
+<script src="../app.js"></script>
 <footer>
     <p class="footer__copyright">
         &copy 2021 polyatcc
