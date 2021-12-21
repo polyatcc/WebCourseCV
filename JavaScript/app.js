@@ -49,11 +49,11 @@ function showError() {
     let item = updatePostContainer()
 
     let img = document.createElement("img")
-    img.setAttribute("src", "../image/error.png")
+    img.setAttribute("src", "../image/error.jpg")
     img.setAttribute("width", "300")
 
     let p = document.createElement("p")
-    p.appendChild(document.createTextNode("oops..."))
+    p.appendChild(document.createTextNode("oops, I did it again"))
 
     item.appendChild(img)
     item.appendChild(p)

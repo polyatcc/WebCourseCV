@@ -34,7 +34,7 @@
 	width: 200px;
 	height: 200px;
 	opacity: 1;
-	background: url('../image/meow2.gif');
+	background: url('../image/meow4.gif');
 	z-index: 50;
 }
 
@@ -50,6 +50,8 @@
 	display: flex;
 	min-height: 100%;
 	flex-direction: column;
+	position: relative;
+    align-items: center;
 }
 
 .button_container{
@@ -59,8 +61,8 @@
 
 .post {
 	max-width: 1000px;
-	align-items: left;
-	border-color: #61892F;
+	align-items: center;
+	border-color: antiquewhite;
 	border-style: solid;
 	border-width: 2px;
 	border-radius: 20px;
@@ -68,19 +70,20 @@
 }
 
 .post__title {
-	color: #FEFFFF;
+	color: lightblue;
 	font-weight: 800;
 	font: 20px;
 	margin-bottom: 10px;
 	margin-top: 6px;
+
 }
 
 .post__id {
-	color: #86C232;
+	color: antiquewhite;
 }
 
 .post__body {
-	color: #6B6E70;
+	color: antiquewhite;
 	font-weight: 600;
 }
 
@@ -91,7 +94,7 @@
 }
 
 .comments__title {
-	color: #FEFFFF;
+	color: lightblue;
 	font-weight: 700;
 	font: 18px;
 	margin-bottom: 5px;
@@ -99,7 +102,7 @@
 }
 
 .comments__name {
-	color: #86C232;
+	color: yellow;
 }
 
 .comments__body {
